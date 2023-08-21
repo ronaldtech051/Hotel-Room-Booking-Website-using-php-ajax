@@ -1,0 +1,65 @@
+/* :: 6.0 Buttons Area CSS */
+
+.btn {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.roberto-btn {
+    position: relative;
+    z-index: 1;
+    min-width: 150px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 40px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: $primary;
+    color: $white;
+    border: none;
+    border-radius: 2px;
+    @include transition-duration(500ms);
+
+    &:focus,
+    &:hover {
+        font-weight: 500;
+        @include box-shadow($box-shadow);
+        background-color: $white;
+        color: $primary;
+    }
+
+    &.btn-2 {
+        min-width: 180px;
+        height: 50px;
+        line-height: 46px;
+        border: 2px solid $hover;
+        background-color: transparent;
+        color: $white;
+
+        &:focus,
+        &:hover {
+            color: $white;
+            background-color: $hover;
+        }
+    }
+}
+
+.continue-btn {
+    padding: 0;
+    line-height: 1;
+    color: #afb4bf;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 500;
+
+    &:focus,
+    &:hover {
+        text-decoration: underline;
+        color: $dark;
+    }
+}

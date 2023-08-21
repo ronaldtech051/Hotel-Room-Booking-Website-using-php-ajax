@@ -1,0 +1,20 @@
+/* :: 10.0 Partner Area CSS */
+
+.partner-logo-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    a {
+        display: inline-block;
+
+        img {
+            max-height: 50px;
+
+            @media #{$breakpoint-xs} {
+                max-height: 30px;
+            }
+        }
+    }
+}

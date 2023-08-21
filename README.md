@@ -1,374 +1,83 @@
-Contribution: 2019-01-16 10:00
-
-Contribution: 2019-01-16 10:01
-
-Contribution: 2019-01-16 10:02
-
-Contribution: 2019-01-16 10:03
-
-Contribution: 2019-01-16 10:04
-
-Contribution: 2019-01-16 10:05
-
-Contribution: 2019-01-16 10:06
-
-Contribution: 2019-01-24 10:00
-
-Contribution: 2019-01-24 10:01
-
-Contribution: 2019-01-24 10:02
-
-Contribution: 2019-01-29 10:00
-
-Contribution: 2019-01-31 10:00
-
-Contribution: 2019-01-31 10:01
-
-Contribution: 2019-01-31 10:02
-
-Contribution: 2019-01-31 10:03
-
-Contribution: 2019-01-31 10:04
-
-Contribution: 2019-01-31 10:05
-
-Contribution: 2019-01-31 10:06
-
-Contribution: 2019-02-07 10:00
-
-Contribution: 2019-02-07 10:01
-
-Contribution: 2019-02-07 10:02
-
-Contribution: 2019-02-07 10:03
-
-Contribution: 2019-02-07 10:04
-
-Contribution: 2019-02-07 10:05
-
-Contribution: 2019-02-07 10:06
-
-Contribution: 2019-02-07 10:07
-
-Contribution: 2019-02-07 10:08
-
-Contribution: 2019-02-07 10:09
-
-Contribution: 2019-02-07 10:10
-
-Contribution: 2019-02-07 10:11
-
-Contribution: 2019-02-08 10:00
-
-Contribution: 2019-02-08 10:01
-
-Contribution: 2019-02-08 10:02
-
-Contribution: 2019-02-08 10:03
-
-Contribution: 2019-02-08 10:04
-
-Contribution: 2019-02-08 10:05
-
-Contribution: 2019-02-08 10:06
-
-Contribution: 2019-02-08 10:07
-
-Contribution: 2019-02-08 10:08
-
-Contribution: 2019-02-13 10:00
-
-Contribution: 2019-02-13 10:01
-
-Contribution: 2019-02-13 10:02
-
-Contribution: 2019-02-13 10:03
-
-Contribution: 2019-02-15 10:00
-
-Contribution: 2019-02-15 10:01
-
-Contribution: 2019-02-15 10:02
-
-Contribution: 2019-02-15 10:03
-
-Contribution: 2019-02-15 10:04
-
-Contribution: 2019-02-15 10:05
-
-Contribution: 2019-02-15 10:06
-
-Contribution: 2019-02-15 10:07
-
-Contribution: 2019-02-18 10:00
-
-Contribution: 2019-02-18 10:01
-
-Contribution: 2019-02-18 10:02
-
-Contribution: 2019-02-18 10:03
-
-Contribution: 2019-02-18 10:04
-
-Contribution: 2019-02-18 10:05
-
-Contribution: 2019-02-18 10:06
-
-Contribution: 2019-02-18 10:07
-
-Contribution: 2019-02-19 10:00
-
-Contribution: 2019-02-19 10:01
-
-Contribution: 2019-02-19 10:02
-
-Contribution: 2019-02-19 10:03
-
-Contribution: 2019-02-20 10:00
-
-Contribution: 2019-02-20 10:01
-
-Contribution: 2019-02-20 10:02
-
-Contribution: 2019-02-21 10:00
-
-Contribution: 2019-02-21 10:01
-
-Contribution: 2019-02-21 10:02
-
-Contribution: 2019-02-21 10:03
-
-Contribution: 2019-02-21 10:04
-
-Contribution: 2019-02-21 10:05
-
-Contribution: 2019-02-21 10:06
-
-Contribution: 2019-02-21 10:07
-
-Contribution: 2019-02-21 10:08
-
-Contribution: 2019-02-21 10:09
-
-Contribution: 2019-02-26 10:00
-
-Contribution: 2019-02-26 10:01
-
-Contribution: 2019-02-26 10:02
-
-Contribution: 2019-02-26 10:03
-
-Contribution: 2019-02-26 10:04
-
-Contribution: 2019-02-26 10:05
-
-Contribution: 2019-02-26 10:06
-
-Contribution: 2019-02-26 10:07
-
-Contribution: 2019-02-26 10:08
-
-Contribution: 2019-02-26 10:09
-
-Contribution: 2019-02-26 10:10
-
-Contribution: 2019-02-27 10:00
-
-Contribution: 2019-02-27 10:01
-
-Contribution: 2019-02-27 10:02
-
-Contribution: 2019-02-27 10:03
-
-Contribution: 2019-02-27 10:04
-
-Contribution: 2019-02-27 10:05
-
-Contribution: 2019-02-27 10:06
-
-Contribution: 2019-02-27 10:07
-
-Contribution: 2019-02-27 10:08
-
-Contribution: 2019-02-27 10:09
-
-Contribution: 2019-02-27 10:10
-
-Contribution: 2019-02-28 10:00
-
-Contribution: 2019-02-28 10:01
-
-Contribution: 2019-02-28 10:02
-
-Contribution: 2019-02-28 10:03
-
-Contribution: 2019-02-28 10:04
-
-Contribution: 2019-02-28 10:05
-
-Contribution: 2019-02-28 10:06
-
-Contribution: 2019-02-28 10:07
-
-Contribution: 2019-02-28 10:08
-
-Contribution: 2019-03-05 10:00
-
-Contribution: 2019-03-05 10:01
-
-Contribution: 2019-03-05 10:02
-
-Contribution: 2019-03-05 10:03
-
-Contribution: 2019-03-05 10:04
-
-Contribution: 2019-03-05 10:05
-
-Contribution: 2019-03-05 10:06
-
-Contribution: 2019-03-06 10:00
-
-Contribution: 2019-03-06 10:01
-
-Contribution: 2019-03-06 10:02
-
-Contribution: 2019-03-06 10:03
-
-Contribution: 2019-03-06 10:04
-
-Contribution: 2019-03-06 10:05
-
-Contribution: 2019-03-06 10:06
-
-Contribution: 2019-03-07 10:00
-
-Contribution: 2019-03-07 10:01
-
-Contribution: 2019-03-07 10:02
-
-Contribution: 2019-03-07 10:03
-
-Contribution: 2019-03-07 10:04
-
-Contribution: 2019-03-07 10:05
-
-Contribution: 2019-03-07 10:06
-
-Contribution: 2019-03-07 10:07
-
-Contribution: 2019-03-07 10:08
-
-Contribution: 2019-03-07 10:09
-
-Contribution: 2019-03-07 10:10
-
-Contribution: 2019-03-07 10:11
-
-Contribution: 2019-03-11 10:00
-
-Contribution: 2019-03-11 10:01
-
-Contribution: 2019-03-11 10:02
-
-Contribution: 2019-03-12 10:00
-
-Contribution: 2019-03-12 10:01
-
-Contribution: 2019-03-12 10:02
-
-Contribution: 2019-03-12 10:03
-
-Contribution: 2019-03-12 10:04
-
-Contribution: 2019-03-12 10:05
-
-Contribution: 2019-03-12 10:06
-
-Contribution: 2019-03-12 10:07
-
-Contribution: 2019-03-12 10:08
-
-Contribution: 2019-03-12 10:09
-
-Contribution: 2019-03-12 10:10
-
-Contribution: 2019-03-12 10:11
-
-Contribution: 2019-03-18 10:00
-
-Contribution: 2019-03-18 10:01
-
-Contribution: 2019-03-18 10:02
-
-Contribution: 2019-03-18 10:03
-
-Contribution: 2019-03-18 10:04
-
-Contribution: 2019-03-18 10:05
-
-Contribution: 2019-03-18 10:06
-
-Contribution: 2019-03-18 10:07
-
-Contribution: 2019-03-18 10:08
-
-Contribution: 2019-03-18 10:09
-
-Contribution: 2019-03-22 10:00
-
-Contribution: 2019-03-22 10:01
-
-Contribution: 2019-03-22 10:02
-
-Contribution: 2019-04-01 10:00
-
-Contribution: 2019-04-01 10:01
-
-Contribution: 2019-04-02 10:00
-
-Contribution: 2019-04-02 10:01
-
-Contribution: 2019-04-02 10:02
-
-Contribution: 2019-04-02 10:03
-
-Contribution: 2019-04-02 10:04
-
-Contribution: 2019-04-02 10:05
-
-Contribution: 2019-04-02 10:06
-
-Contribution: 2019-04-02 10:07
-
-Contribution: 2019-04-02 10:08
-
-Contribution: 2019-04-02 10:09
-
-Contribution: 2019-04-02 10:10
-
-Contribution: 2019-04-02 10:11
-
-Contribution: 2019-04-03 10:00
-
-Contribution: 2019-04-03 10:01
-
-Contribution: 2019-04-03 10:02
-
-Contribution: 2019-04-03 10:03
-
-Contribution: 2019-04-03 10:04
-
-Contribution: 2019-04-03 10:05
-
-Contribution: 2019-04-03 10:06
-
-Contribution: 2019-04-03 10:07
-
-Contribution: 2019-04-05 10:00
-
-Contribution: 2019-04-05 10:01
-
-Contribution: 2019-04-05 10:02
-
-Contribution: 2019-04-05 10:03
-
+/* ------------------------------------------------------
+Template Name: Roberto - Hotel & Resort HTML Template
+Template Author: Colorlib
+Template Author URI: https://colorlib.com
+Version: 1.0.0
+Last Update: Feb 9, 2019
+----------------------------------------------------- */
+
+# Hotel Room Booking Website
+ Admin can put hotel rooms photos and services and price of the room. Customers can Book One or many rooms and according to selected rooms total payment amount is shown to the user. For Sign In & Sign Up I use Ajax. Website Provide Room Booking, Add user and edit user at admin side, Sign In, Sign Up, Forgot Password, etc.
+
+/* --------------------------------
+To start 'Gulp' => npm run start
+-------------------------------- */
+
+File Structure:
+roberto/
+└── src/
+    ├── css/
+    │   ├── default-assets/
+    │   ├── fonts/
+    │   ├── animate.css
+    │   ├── bootstrap-datepicker.min.css
+    │   ├── bootstrap.min.css
+    │   ├── font-awesome.min.css
+    │   ├── jquery-ui.min.css
+    │   ├── magnific-popup.css
+    │   ├── owl.carousel.min.css
+    │   ├── style.css
+    ├── fonts/
+    ├── img/
+    │   ├── bg-img/
+    │   ├── core-img/
+    ├── js/
+    │   ├── default-assets/
+    │   ├── bootstrap-datepicker.min.js
+    │   ├── bootstrap.min.js
+    │   ├── imagesloaded.pkgd.min.js
+    │   ├── isotope.pkgd.min.js
+    │   ├── jarallax-video.min.js
+    │   ├── jarallax.min.js
+    │   ├── jquery.countdown.min.js
+    │   ├── jquery.counterup.min.js
+    │   ├── jquery.easing.min.js
+    │   ├── jquery.magnific-popup.min.js
+    │   ├── jquery.min.js
+    │   ├── jquery.nice-select.min.js
+    │   ├── owl.carousel.min.js
+    │   ├── popper.min.js
+    │   ├── roberto.bundle.js
+    │   ├── waypoints.min.js
+    │   ├── wow.min.js
+    ├── scss/
+    │   ├── mixins/
+    │   ├── utilities/
+    │   ├── about.scss
+    │   ├── backtotop.scss
+    │   ├── blog.scss
+    │   ├── breadcrumb.scss
+    │   ├── buttons.scss
+    │   ├── contact.scss
+    │   ├── cta.scss
+    │   ├── footer.scss
+    │   ├── header.scss
+    │   ├── heading.scss
+    │   ├── hero.scss
+    │   ├── partner.scss
+    │   ├── preloader.scss
+    │   ├── project.scss
+    │   ├── reboot.scss
+    │   ├── spacing.scss
+    │   ├── testimonial.scss
+    │   ├── widget.scss
+    │   ├── style.scss
+    ├── about.html
+    ├── blog.html
+    ├── contact.html
+    ├── index.html
+    ├── room.html
+    ├── single-blog.html
+    ├── single-room.html
+    ├── style.css
+    ├── style.css.map

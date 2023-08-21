@@ -1,0 +1,143 @@
+/* :: 13.0 Testimonial Area CSS */
+
+.roberto-testimonials-area {
+    position: relative;
+    z-index: 1;
+
+    .testimonial-thumbnail {
+        position: relative;
+        z-index: 1;
+        padding-right: 15px;
+
+        img {
+            border-radius: 8px;
+            width: 100% !important;
+        }
+    }
+
+    .single-testimonial-slide {
+        h5 {
+            color: #636a76;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.8;
+
+            @media #{$breakpoint-lg} {
+                font-size: 16px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 16px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 16px;
+            }
+        }
+
+        .rating-title {
+            position: relative;
+            z-index: 1;
+            margin-top: 15px;
+
+            .rating {
+                display: block;
+                margin-bottom: 10px;
+
+                i {
+                    color: #f5b917;
+                    font-size: 14px;
+                }
+            }
+
+            h6 {
+                margin-bottom: 0;
+
+                span {
+                    color: $hover;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.testimonial-slides {
+    .owl-dots {
+        @include display-flex(flex);
+        @include align-items-center;
+        margin-top: 40px;
+
+        .owl-dot {
+            @include flex(0 0 12px);
+            max-width: 12px;
+            width: 12px;
+            height: 12px;
+            background-color: #c0c8d7;
+            border-radius: 50%;
+            margin: 0 5px;
+
+            &.active {
+                @include flex(0 0 12px);
+                max-width: 12px;
+                width: 12px;
+                background-color: $hover;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.single-testimonial-area {
+    position: relative;
+    z-index: 1;
+
+    .testimonial-content {
+        @include transition-duration(500ms);
+        position: relative;
+        z-index: 1;
+        padding: 40px;
+        border-radius: 3px;
+        box-shadow: 0 15px 9px 0 rgba(0, 0, 0, 0.08);
+        margin-bottom: 40px;
+
+        @media #{$breakpoint-lg} {
+            padding: 30px;
+        }
+
+        @media #{$breakpoint-xs} {
+            padding: 30px;
+        }
+
+        .ratings-icon {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 20px;
+
+            .rating {
+                color: #f3b409;
+            }
+        }
+
+        h5 {
+            @include transition-duration(500ms);
+            margin-bottom: 0;
+            color: #707070;
+            line-height: 1.5;
+            font-weight: 400;
+
+            @media #{$breakpoint-lg} {
+                font-size: 16px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 16px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 16px;
+            }
+        }
+    }
+}

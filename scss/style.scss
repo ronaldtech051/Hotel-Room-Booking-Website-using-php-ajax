@@ -1,0 +1,83 @@
+/* ------------------------------------------
+[Master Stylesheet]
+
+Template Name: Roberto - Hotel & Resort HTML Template
+Template Author: Colorlib
+Template Author URL: http://colorlib.com
+Version: 1.0.0
+Last Update: Feb 9, 2019
+---------------------------------------------
+
+---------------------------------------------
+[Tables of CSS Content]
+
++ body
+
+- 01.0 Reboot Area CSS
+- 02.0 Spacing Area CSS
+- 03.0 Preloader Area CSS
+- 04.0 Heading Area CSS
+- 05.0 Backtotop Area CSS
+- 06.0 Buttons Area CSS
+- 07.0 Header Area CSS
+- 08.0 Hero Area CSS
+- 09.0 Footer Area CSS
+- 10.0 Partner Area CSS
+- 11.0 Project Area CSS
+- 12.0 CTA Area CSS
+- 13.0 Testimonial Area CSS
+- 14.0 Room Area CSS
+- 15.0 About Area CSS
+- 16.0 Contact Area CSS
+- 17.0 Widget Area CSS
+- 18.0 Breadcrumb Area CSS
+- 19.0 Blog Area CSS
+--------------------------------------------- */
+
+/* Import Fonts & All CSS */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
+
+@import 'css/bootstrap.min.css';
+@import 'css/animate.css';
+@import 'css/default-assets/classy-nav.css';
+@import 'css/owl.carousel.min.css';
+@import 'css/magnific-popup.css';
+@import 'css/nice-select.css';
+@import 'css/font-awesome.min.css';
+@import 'css/style.css';
+@import 'css/bootstrap-datepicker.min.css';
+@import 'css/jquery-ui.min.css';
+
+// Utilities
+
+@import "utilities/fonts";
+@import "utilities/variables";
+@import "utilities/responsive";
+@import "utilities/color";
+
+// Mixins
+
+@import "mixins/flex";
+@import "mixins/miscellaneous";
+
+// Stylesheet
+
+@import "reboot";
+@import "spacing";
+@import "preloader";
+@import "heading";
+@import "backtotop";
+@import "buttons";
+@import "header";
+@import "hero";
+@import "footer";
+@import "partner";
+@import "project";
+@import "cta";
+@import "testimonial";
+@import "room";
+@import "about";
+@import "contact";
+@import "widget";
+@import "breadcrumb";
+@import "blog";

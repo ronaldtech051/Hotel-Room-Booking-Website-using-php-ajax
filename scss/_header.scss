@@ -1,0 +1,327 @@
+/* :: 7.0 Header Area CSS */
+
+.header-area {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    @include transition-duration(500ms);
+    background-color: $primary;
+
+    .search-form {
+        @include transition-duration(350ms);
+        transition-timing-function: ease-in;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 0;
+        background-color: $hover;
+
+        &.search-form-active {
+            height: 80px;
+            z-index: 99999999;
+        }
+
+        form {
+            position: relative;
+            z-index: 1;
+
+            input {
+                background-color: transparent;
+                width: 100%;
+                height: 60px;
+                border: none;
+                font-size: 14px;
+                color: $white;
+            }
+
+            button {
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 0;
+                right: 0;
+                z-index: 10;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+                font-size: 18px;
+                color: $white;
+                text-align: right;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+.top-header-area {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color: $dark2;
+
+    .top-header-content {
+        @include display-flex(flex);
+        @include align-items-center;
+
+        > a {
+            color: $white;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 50px;
+            display: inline-block;
+            margin-right: 50px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            i {
+                padding-right: 5px;
+                color: $primary;
+            }
+
+            @media #{$breakpoint-md} {
+                margin-right: 30px;
+            }
+
+            @media #{$breakpoint-xs} {
+                margin-right: 15px;
+            }
+
+            span {
+                @media #{$breakpoint-md} {
+                    display: none;
+                }
+
+                @media #{$breakpoint-xs} {
+                    display: none;
+                }
+            }
+
+            &:hover,
+            &:focus {
+                color: $secondary;
+            }
+        }
+
+        .top-social-area {
+            a {
+                display: inline-block;
+                margin-right: 30px;
+                color: $white;
+                line-height: 50px;
+                font-size: 14px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                @media #{$breakpoint-xs} {
+                    margin-right: 15px;
+                }
+
+                &:hover,
+                &:focus {
+                    color: $hover;
+                }
+            }
+        }
+    }
+}
+
+.classy-nav-container {
+    background-color: transparent;
+    padding: 0;
+
+    .classy-navbar {
+        @include transition-duration(500ms);
+        height: 80px;
+        padding: 0;
+
+        @media #{$breakpoint-md} {
+            height: 70px;
+        }
+
+        @media #{$breakpoint-xs} {
+            height: 70px;
+        }
+
+        .nav-brand {
+            @media #{$breakpoint-xs} {
+                max-width: 90px;
+                margin-right: 15px;
+            }
+        }
+
+        .classynav ul li {
+            a {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: $heading;
+                font-weight: 500;
+                padding: 0 20px;
+
+                @media #{$breakpoint-lg} {
+                    font-size: 14px;
+                    padding: 0 10px;
+                }
+
+                @media #{$breakpoint-md} {
+                    font-size: 14px;
+                    color: $heading;
+
+                    &:hover,
+                    &:focus {
+                        color: $hover;
+                    }
+                }
+
+                @media #{$breakpoint-xs} {
+                    font-size: 14px;
+                    color: $heading;
+
+                    &:hover,
+                    &:focus {
+                        color: $hover;
+                    }
+                }
+
+                &:focus,
+                &:hover {
+                    color: $secondary;
+                    font-weight: 500;
+                }
+            }
+
+            &.cn-dropdown-item,
+            &.megamenu-item {
+                ul li {
+                    a {
+                        font-size: 14px;
+                        text-transform: capitalize;
+                        height: 42px;
+                        line-height: 42px;
+                        padding: 0 30px;
+                        color: $heading;
+
+                        &:focus,
+                        &:hover {
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.classynav ul li {
+    &.active {
+        a {
+            position: relative;
+            z-index: 1;
+
+            &::before {
+                width: 80%;
+                height: 2px;
+                background-color: $white;
+                position: absolute;
+                bottom: 0;
+                left: 10%;
+                z-index: 1;
+                content: '';
+
+                @media #{$breakpoint-md} {
+                    display: none;
+                }
+
+                @media #{$breakpoint-xs} {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.classynav ul li.has-down > a::after,
+.classynav ul li.has-down.active > a::after,
+.classynav ul li.megamenu-item > a::after {
+    color: $heading;
+}
+
+.breakpoint-off .classynav ul li .dropdown,
+.breakpoint-off .classynav ul li .megamenu {
+    width: 210px;
+    @include box-shadow($box-shadow);
+    border-radius: 6px;
+}
+
+.breakpoint-off .classynav ul li .megamenu {
+    width: 100%;
+}
+
+.classy-navbar-toggler .navbarToggler span {
+    background-color: $heading;
+}
+
+.main-header-area {
+    position: relative;
+    z-index: 1;
+    background-color: $white;
+
+    .book-now-btn {
+        a {
+            padding: 0 30px;
+            background-color: $primary;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            color: $white;
+            font-size: 16px;
+
+            i {
+                padding-left: 5px;
+            }
+
+            @media #{$breakpoint-md} {
+                height: 50px;
+                line-height: 50px;
+                border-radius: 30px;
+            }
+
+            @media #{$breakpoint-xs} {
+                height: 50px;
+                line-height: 50px;
+                border-radius: 30px;
+            }
+
+            &:hover,
+            &:focus {
+                background-color: $heading;
+                color: $white;
+            }
+        }
+    }
+
+    .search-btn {
+        cursor: pointer;
+        @include transition-duration(500ms);
+
+        @media #{$breakpoint-md} {
+            padding: 30px 0;
+        }
+
+        @media #{$breakpoint-xs} {
+            padding: 30px 0;
+        }
+
+        &:hover,
+        &:focus {
+            color: $hover;
+        }
+    }
+}

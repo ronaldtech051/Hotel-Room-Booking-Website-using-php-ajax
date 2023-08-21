@@ -1,0 +1,25 @@
+/* :: 12.0 CTA CSS */
+
+.roberto-cta-area {
+    position: relative;
+    z-index: 1;
+
+    .cta-content {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .cta-text {
+        h2 {
+            color: $white;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h6 {
+            margin-bottom: 0;
+            color: $white;
+        }
+    }
+}

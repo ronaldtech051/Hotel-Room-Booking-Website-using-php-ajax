@@ -1,0 +1,35 @@
+{
+  "name": "roberto-hotel-and-resort-html-template",
+  "version": "1.0.0",
+  "description": "Roberto Hotel & Resort HTML Template",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "colorlib",
+  "license": "CC-BY-3.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "bootstrap-datepicker": "^1.8.0",
+    "counterup": "^1.0.2",
+    "elegant-icons": "0.0.1",
+    "font-awesome": "^4.7.0",
+    "imagesloaded": "^4.1.4",
+    "isotope-layout": "^3.0.6",
+    "jarallax": "^1.10.6",
+    "jquery": "^2.2.4",
+    "jquery-countdown": "^2.2.0",
+    "jquery-nice-select": "^1.1.0",
+    "jquery-ui-slider": "^1.12.1",
+    "jquery-waypoints": "^2.0.5",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0",
+    "owl.carousel2": "^2.2.1",
+    "popper.js": "^1.14.5",
+    "wowjs": "^1.1.3"
+  }
+}

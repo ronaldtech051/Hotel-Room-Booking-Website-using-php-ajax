@@ -1,0 +1,294 @@
+/* :: 15.0 About CSS */
+
+.about-content {
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-content {
+    position: relative;
+    z-index: 1;
+
+    h5 {
+        line-height: 1.8;
+        color: #636a76;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+
+    p {
+        margin-bottom: 30px;
+
+        span {
+            color: $hover;
+        }
+    }
+}
+
+.about-thumbnail {
+    position: relative;
+    z-index: 1;
+
+    img {
+        border-radius: 6px;
+        width: 100%;
+    }
+}
+
+.about-us-thumbnail {
+    position: relative;
+    z-index: 1;
+
+    .single-thumb {
+        position: relative;
+        z-index: 1;
+        margin: 5px;
+        display: block;
+        overflow: hidden;
+        border-radius: 6px;
+
+        img {
+            @include transition-duration(500ms);
+            border-radius: 6px;
+        }
+
+        &:first-child {
+            margin-bottom: 10px;
+        }
+
+        &:hover,
+        &:focus {
+            img {
+                @include transform(scale(1.15));
+            }
+        }
+    }
+}
+
+.single-service-area {
+    position: relative;
+    z-index: 1;
+    background-color: $white;
+    box-shadow: 0 2px 14px 5px rgba(20, 20, 20, 0.05);
+    border-radius: 3px;
+
+    .service-title {
+        @include transition-duration(500ms);
+        position: absolute;
+        width: 100%;
+        background-color: rgba(42, 48, 59, 0.5);
+        bottom: 0;
+        left: 0;
+        height: 80px;
+        text-align: center;
+
+        h5 {
+            margin-bottom: 0;
+            font-size: 22px;
+            color: $white;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        .service-title {
+            background-color: rgba(42, 48, 59, 1);
+        }
+    }
+}
+
+.roberto-service-area {
+    position: relative;
+    z-index: 1;
+
+    .service-content {
+        @media #{$breakpoint-xs} {
+            @include flex-wrap(wrap);
+            margin-bottom: 70px;
+        }
+    }
+}
+
+.single-service--area {
+    position: relative;
+    z-index: 1;
+    background-color: $white;
+    box-shadow: 0 2px 14px 5px rgba(20, 20, 20, 0.05);
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+
+    @media #{$breakpoint-md} {
+        padding: 20px;
+    }
+
+    @media #{$breakpoint-xs} {
+        padding: 20px;
+        @include flex(0 0 45%);
+        max-width: 45%;
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    img {
+        margin-bottom: 20px;
+        display: inline-block;
+        max-height: 40px;
+
+        @media #{$breakpoint-xs} {
+            max-height: 30px;
+        }
+    }
+
+    h5 {
+        margin-bottom: 0;
+        @include transition-duration(500ms);
+
+        @media #{$breakpoint-lg} {
+            font-size: 16px;
+        }
+
+        @media #{$breakpoint-md} {
+            font-size: 14px;
+        }
+
+        @media #{$breakpoint-xs} {
+            font-size: 14px;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        h5 {
+            color: $hover;
+        }
+    }
+}
+
+.hotel-search-form-area {
+    position: relative;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    @media #{$breakpoint-lg} {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    @media #{$breakpoint-md} {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    @media #{$breakpoint-xs} {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .hotel-search-form {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.15);
+        padding: 40px 40px 0 40px;
+        border-radius: 5px;
+        background-color: $white;
+
+        @media #{$breakpoint-xs} {
+            padding: 30px 30px 0 30px;
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: 500;
+
+            @media #{$breakpoint-xs} {
+                font-size: 13px;
+            }
+        }
+
+        .form-control {
+            width: 100%;
+            margin-bottom: 40px;
+            height: 50px;
+            border: 1px solid $border;
+            font-size: 13px;
+
+            @media #{$breakpoint-xs} {
+                margin-bottom: 30px;
+            }
+
+            &:focus {
+                box-shadow: none;
+                border-color: $hover;
+            }
+        }
+    }
+}
+
+.roberto-about-area {
+    position: relative;
+    z-index: 1;
+
+    .hotel-search-form-area {
+        position: absolute;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+        @include transform(translateY(-50%));
+
+        .nice-select {
+            line-height: 35px;
+        }
+    }
+}
+
+.roberto--video--area {
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    .video-content-area {
+        position: relative;
+        z-index: 1;
+
+        .video-play-btn {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            background-color: $white;
+            color: $hover;
+            font-size: 18px;
+            text-align: center;
+            line-height: 70px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -35px;
+            margin-left: -35px;
+            z-index: 100;
+
+            i {
+                padding-left: 5px;
+            }
+
+            @media #{$breakpoint-xs} {
+                width: 60px;
+                height: 60px;
+                font-size: 24px;
+                line-height: 60px;
+                margin-top: -30px;
+                margin-left: -30px;
+            }
+
+            &:hover,
+            &:focus {
+                background-color: $hover;
+                color: $white;
+            }
+        }
+    }
+}

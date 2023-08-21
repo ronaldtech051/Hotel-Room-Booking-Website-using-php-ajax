@@ -1,0 +1,203 @@
+/* :: 9.0 Footer Area CSS */
+
+.footer-area {
+    position: relative;
+    z-index: 1;
+    background-color: $dark2;
+}
+
+.single-footer-widget {
+    position: relative;
+    z-index: 1;
+
+    .widget-title {
+        font-size: 22px;
+        color: $white;
+        margin-bottom: 25px;
+        display: block;
+        text-transform: capitalize;
+
+        @media #{$breakpoint-lg} {
+            font-size: 18px;
+        }
+
+        @media #{$breakpoint-xs} {
+            font-size: 18px;
+        }
+    }
+
+    .latest-blog-area {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .post-title {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+            color: $white;
+            font-weight: 400;
+
+            &:focus,
+            &:hover {
+                color: $hover;
+            }
+        }
+    }
+
+    .footer-nav {
+        position: relative;
+        z-index: 1;
+
+        li {
+            a {
+                display: block;
+                margin-bottom: 10px;
+                color: $text;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: capitalize;
+
+                &:focus,
+                &:hover {
+                    color: $white;
+                }
+            }
+
+            &:last-child {
+                a {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .nl-form {
+        position: relative;
+        z-index: 1;
+        margin-top: 30px;
+
+        input {
+            width: 100%;
+            height: 46px;
+            background-color: #3e525f;
+            border-radius: 30px;
+            border: none;
+            padding: 0 20px;
+            color: $white;
+            font-size: 14px;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        button {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            top: 3px;
+            right: 3px;
+            color: $white;
+            background-color: $primary;
+            cursor: pointer;
+            @include transition-duration(500ms);
+
+            &:focus,
+            &:hover {
+                background-color: $heading;
+            }
+        }
+    }
+
+    .footer-logo {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: $secondary;
+    }
+
+    h4 {
+        color: $hover;
+    }
+
+    span {
+        color: $secondary;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.copywrite-text {
+    position: relative;
+    z-index: 1;
+
+    @media #{$breakpoint-xs} {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        color: $secondary;
+        margin-bottom: 0;
+
+        @media #{$breakpoint-xs} {
+            font-size: 12px;
+        }
+
+        a {
+            color: $secondary;
+            font-size: 14px;
+
+            @media #{$breakpoint-xs} {
+                font-size: 12px;
+            }
+
+            &:focus,
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+.copywrite-content {
+    position: relative;
+    z-index: 1;
+    padding: 15px 0;
+    border-top: 1px solid #273d4b;
+
+    .social-info {
+        text-align: right;
+
+        @media #{$breakpoint-xs} {
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+            color: $secondary;
+            padding-left: 20px;
+
+            &:focus,
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+
+}

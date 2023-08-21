@@ -1,0 +1,29 @@
+/* :: 5.0 Backtotop Area CSS */
+
+#scrollUp {
+    position: fixed;
+    right: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    background-color: $primary;
+    color: $white;
+    text-align: center;
+    @include transition-duration(500ms);
+    border-radius: 50%;
+    @include box-shadow($box-shadow);
+    z-index: 15962536;
+
+    @media #{$breakpoint-xs} {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    &:focus,
+    &:hover {
+        background-color: $dark;
+        color: $white;
+    }
+}

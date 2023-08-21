@@ -1,0 +1,121 @@
+/* :: 16.0 Contact Area CSS */
+
+.roberto-contact-form {
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        margin-bottom: 30px;
+        font-size: 22px;
+        display: block;
+
+        @media #{$breakpoint-xs} {
+            font-size: 24px;
+        }
+    }
+
+    .form-control {
+        width: 100%;
+        height: 50px;
+        padding: 0 20px;
+        border-radius: 2px;
+        color: $secondary;
+        font-size: 14px;
+        border: 1px solid $border;
+
+        &:focus {
+            box-shadow: none;
+            border-color: $primary;
+        }
+    }
+
+    textarea.form-control {
+        height: 150px;
+        padding: 20px;
+    }
+}
+
+.google-maps-contact-info {
+    position: relative;
+    z-index: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -100px;
+
+    @media #{$breakpoint-lg} {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+.google-maps-contact-content {
+    position: relative;
+    z-index: 1;
+    background-color: $white;
+    border-radius: 4px;
+    @include box-shadow($box-shadow);
+    padding: 35px;
+
+    @media #{$breakpoint-xs} {
+        padding: 20px;
+    }
+
+    .single-contact-info {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        margin-bottom: 40px;
+
+        h4 {
+            @media #{$breakpoint-lg} {
+                font-size: 16px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 14px;
+            }
+        }
+
+        i {
+            display: inline-block;
+            font-size: 30px;
+            margin-bottom: 15px;
+            color: $hover;
+
+            @media #{$breakpoint-xs} {
+                font-size: 24px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+
+            @media #{$breakpoint-lg} {
+                font-size: 12px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .google-maps {
+        position: relative;
+        z-index: 1;
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+
+            @media #{$breakpoint-lg} {
+                height: 400px;
+            }
+
+            @media #{$breakpoint-xs} {
+                height: 300px;
+            }
+        }
+    }
+}

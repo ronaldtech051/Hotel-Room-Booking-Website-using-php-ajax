@@ -1,0 +1,107 @@
+/* :: 8.0 Hero Area CSS */
+
+.welcome-area {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-slides {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    .owl-prev,
+    .owl-next {
+        @include transition-duration(500ms);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: $hover;
+        text-indent: -50000em;
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        margin-top: -40px;
+        z-index: 10;
+        background-position: center center !important;
+        background-size: cover !important;
+        opacity: 0;
+        visibility: hidden;
+
+        @media #{$breakpoint-xs} {
+            width: 40px;
+            left: 20px;
+            height: 40px;
+        }
+    }
+
+    .owl-next {
+        left: auto;
+        right: 30px;
+
+        @media #{$breakpoint-xs} {
+            right: 20px;
+        }
+    }
+
+    &:hover,
+    &:focus {
+
+        .owl-prev,
+        .owl-next {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.single-welcome-slide {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 770px;
+    background-color: $primary;
+
+    @media #{$breakpoint-lg} {
+        height: 600px;
+    }
+
+    @media #{$breakpoint-md} {
+        height: 600px;
+    }
+
+    @media #{$breakpoint-xs} {
+        height: 700px;
+    }
+
+    .welcome-text {
+        position: relative;
+        z-index: 1;
+
+        h6 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: $white;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 72px;
+            display: block;
+            margin-bottom: 30px;
+            color: $white;
+
+            @media #{$breakpoint-lg} {
+                font-size: 48px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 42px;
+            }
+
+            @media #{$breakpoint-xs } {
+                font-size: 30px;
+            }
+        }
+    }
+}

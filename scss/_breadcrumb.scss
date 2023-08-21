@@ -1,0 +1,103 @@
+/* :: 18.0 Breadcrumb Area CSS */
+
+.breadcrumb-area {
+    position: relative;
+    z-index: 1;
+    height: 300px;
+
+    @media #{$breakpoint-xs} {
+        height: 200px;
+    }
+
+    .page-title {
+        color: $white;
+        font-size: 48px;
+
+        @media #{$breakpoint-lg} {
+            font-size: 36px;
+        }
+
+        @media #{$breakpoint-md} {
+            font-size: 36px;
+        }
+
+        @media #{$breakpoint-xs} {
+            font-size: 24px;
+        }
+    }
+
+    &.contact-breadcrumb {
+        height: 400px;
+
+        @media #{$breakpoint-xs} {
+            height: 300px;
+        }
+    }
+
+    .room-title {
+        font-size: 48px;
+        color: $white;
+        margin-bottom: 0;
+
+        @media #{$breakpoint-lg} {
+            font-size: 42px;
+        }
+
+        @media #{$breakpoint-md} {
+            font-size: 30px;
+        }
+
+        @media #{$breakpoint-xs} {
+            font-size: 24px;
+        }
+    }
+
+    .room-price {
+        font-size: 36px;
+        color: $hover;
+        margin-bottom: 0;
+
+        @media #{$breakpoint-xs} {
+            font-size: 14px;
+        }
+
+        span {
+            font-size: 18px;
+            color: $white;
+
+            @media #{$breakpoint-xs} {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.breadcrumb-content {
+    position: relative;
+    z-index: 1;
+
+    .breadcrumb {
+        padding: 0;
+        background-color: transparent;
+        margin-bottom: 0;
+
+        .breadcrumb-item {
+            color: $white;
+
+            a {
+                color: $white;
+
+                &:hover,
+                &:focus {
+                    color: $hover;
+                }
+            }
+        }
+
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: '\f105';
+            font-family: "FontAwesome";
+            color: $white;
+        }
+    }
+}
